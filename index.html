@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="models">
+        <div class="pizza-item">
+            <a href="">
+                <div class="pizza-item--img"><img src="" alt=""></div>
+                <div class="pizza-item--add">+</div>
+            </a>
+            <div class="pizza-item--price">R$ --</div>
+            <div class="pizza-item--name">--</div>
+            <div class="pizza-item--desc">--</div>
+        </div>
+        <div class="cart-item">
+            <img src="" alt="">
+            <div class="cart-item--name">--</div>
+            <div class="cart-item--qtarea">
+                <button class="card-item--qtmenos">-</button>
+                <div class="cart-item--qt">1</div>
+                <button class="card-item--qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class='menu-openner'><img src="img/compra.png" alt=""><br><span>0</span></div>
+    </header>
+    <main>
+        <h1>Lanches</h1>
+        <div class="pizza-area"></div>
+    </main>
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">x</div>
+            <h1 class="h1-cart">Seus Pedidos</h1>
+            <div class="cart"></div>
+            <div class="cart-details">
+                <div class="cart--totalitem subtotal">
+                    <span>subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto(-10%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart-finalizar">finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <div class="pizzaWindowArea">
+        <div class="pizzaWindowBody">
+            <div class="pizzaInfo-cancelMobileItem"> Voltar</div>
+            <div class="pizzaBig">
+                <img src="" alt="">
+            </div>
+            <div class="pizzaInfo">
+                <h1>--</h1>
+                <div class="pizzaInfo--desc">--</div>
+                <div class="pizzaInfo--sizeArea">
+                    <div class="pizzaInfo--sector">Tamanho</div>
+                    <div class="pizzaInfo--sizes">
+                        <div data-key="0" class="pizzaInfo--size">PEQUENA <span></span></div>
+                        <div data-key="1" class="pizzaInfo--size">MEDIA <span></span></div>
+                        <div data-key="2" class="pizzaInfo--size selected">GRANDE <span></span></div>
+                    </div>
+                </div>
+                <div class="pizzaInfo--pricearea">
+                    <div class="pizzaInfo--sector">Preço</div>
+                    <div class="pizzaInfo--price">
+                        <div class="pizzaInfo--actualPrice">R$ --</div>
+                        <div class="pizzaInfo--qtArea">
+                            <button class="pizzaInfo--qtmenos">-</button>
+                            <div class="pizzaInfo--qt">1</div>
+                            <button class="pizzaInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizzaInfo--addButton">Adicionar ao carrinho</div>
+                <div class="pizzaInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <script src="cardapio.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
